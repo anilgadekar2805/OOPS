@@ -62,7 +62,7 @@ class ImmutableEmployee
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("-----------------------------------------------------------------");
+		System.out.println("------------------------------------------------------------------");
 			Employee s1 = new Employee("raj",1001,500.00);
 			System.out.println("s1 hashcode = "+s1.hashCode());
 			System.out.println(s1);
