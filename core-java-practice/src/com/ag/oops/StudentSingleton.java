@@ -13,7 +13,7 @@ class Student implements Cloneable, Serializable {
 	private Student() {
 		
 		if(student !=null){
-			throw new IllegalStateException("Using reflection API does not allow to create object of Student class ");
+			throw new IllegalStateException(" Using reflection API does not allow to create object of Student class ");
 		} 
 	}
 	
