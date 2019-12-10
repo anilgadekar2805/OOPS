@@ -22,7 +22,7 @@ class Student implements Cloneable, Serializable {
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		//return super.clone();
-		return new CloneNotSupportedException("Not allow create object using clone method");
+		return new CloneNotSupportedException(" Not allow create object using clone method");
 	}
 	// Override the Deserialization method for preventing new instance creation
 	public Object readResolve() {
